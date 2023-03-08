@@ -39,7 +39,7 @@ nav {
     font-size: 2rem;
     text-align: center;
     color: var(--main-color);
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 2px white;
 }
 
 .navbar li {
@@ -125,6 +125,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     text-align: justify;
+    gap: 6rem;
 }
 
 
