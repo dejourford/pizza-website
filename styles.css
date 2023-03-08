@@ -34,12 +34,13 @@ nav {
 .logo {
     cursor: pointer;
     z-index: 2;
-    font-family: var(--secondary-font-family);
+    font-family: 'Caveat Brush', cursive;
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
     text-align: center;
     color: var(--main-color);
-    text-shadow: 1px 1px 2px white;
+    
 }
 
 .navbar li {
@@ -153,6 +154,8 @@ h1 {
 
 .company-name {
     color: var(--main-color);
+    font-family: 'Caveat Brush', cursive;
+    letter-spacing: 0.3rem;
 }
 
 .order-now-btn  {
@@ -161,11 +164,43 @@ h1 {
     padding: 16px;
     border-radius: 20px 20px 20px ;
     font-weight: 800;
+    font-size: 1.3rem;
+    color: white;
     cursor: pointer;
+    background: var(--main-color);
 }
 
-.order-now-btn:hover {
-    background: var(--main-color);
+
+
+/* MISSION SECTION */
+.mission-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mission-section-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+
+
+.mission-section-images img {
+    width: 70%;
+    transform: rotate(30deg);
+}
+
+.mission-section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
 }
 
 
@@ -235,7 +270,29 @@ h1 {
         align-items: center;
     }
     
-    } 
+    .mission-section-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mission-section-images {
+        width: 50%;
+    }
+
+    .mission-section-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+
+
+} 
 
     @media screen and (max-width: 540px){
         h1 {
