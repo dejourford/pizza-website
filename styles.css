@@ -13,69 +13,54 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* NAVIGATION */
-nav {
-    position: fixed;
-    z-index: 2;
-    background: #66c2ff;
-    width: 100vw;
-}
 
-.logo-text {
-    font-weight: 800;
-    font-size: 1.5rem;
+
+.logo img {
+    max-width: 50px;
     position: absolute;
-    left: 5px;
-    top: 5px;
-    text-align: center;
-    padding: 10px;
-    background: gold;
-    border-radius: 50%;
+    left: 5%;
+    transform: rotate(30deg);
     cursor: pointer;
-}
-
-.navbar img {
-    width: 30%;
+    z-index: 2;
 }
 
 .navbar li {
     list-style: none;
-    padding: 0 30px;
 }
 
 .navbar a {
     color: black;
     text-decoration: none;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: #ff3333;
 }
 
 .navbar {
-    min-height: 70px;
     display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 0px 24px;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px;
+
 }
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 60px;
 }
 
-.nav-branding {
-    font-size: 2rem;
-}
 
 
-.nav-link:hover {
-    text-decoration: 4px gold underline;
+.nav:hover {
+    text-decoration: 4px #ff3333 overline;
 }
 
 .hamburger {
     display: none;
+    position: absolute;
+    right: 55px;
     cursor: pointer;
 }
 
@@ -86,9 +71,19 @@ nav {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background: burlywood;
+    background: black;
 }
 
+#login {
+    background: black;
+    padding: 5px 30px;
+    border-radius: 20px 20px;
+    
+}
+
+#login a {
+    color: white;
+}
 
 
 
