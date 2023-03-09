@@ -161,7 +161,7 @@ h1 {
 .order-now-btn  {
     border: none;
     width: 50%;
-    padding: 16px;
+    padding: 10px 20px;
     border-radius: 20px 20px 20px ;
     font-weight: 800;
     font-size: 1.3rem;
@@ -205,10 +205,10 @@ h1 {
 
 /* WEEKLY POPULAR CHOICES */
 .popular-choices-section {
-    height: 100vh;
     display: flex;
+    height: 100dvh;
     justify-content: center;
-    padding-top: 30px;
+    background: var(--main-color);
     
 }
 
@@ -221,7 +221,8 @@ h2 {
     display: flex;
     flex-direction: column ;
     align-items: center;
-    gap: 30px;
+    justify-content: space-around;
+    padding: 30px;
 }
 
 .button-options {
@@ -231,7 +232,7 @@ h2 {
 
 .button-options button {
     font-size: 1.2rem;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 10px 10px 10px;
     background: var(--secondary-color);
     border: none;
@@ -240,6 +241,29 @@ h2 {
 
 .button-options button:hover {
     background: white;
+}
+
+.popular-choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular-choices-wrapper
+
+.popular-choice {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.popular-choice img {
+    height: 300px;
+}
+
+.price {
+    font-size:1.5rem;
+    padding: 10px;
 }
 
 
