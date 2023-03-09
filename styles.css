@@ -167,7 +167,7 @@ h1 {
     font-size: 1.3rem;
     color: white;
     cursor: pointer;
-    background: var(--main-color);
+    background: #00cc00;
 }
 
 
@@ -206,9 +206,48 @@ h1 {
 /* WEEKLY POPULAR CHOICES */
 .popular-choices-section {
     height: 100vh;
-    background: var(--main-color);
+    background: linear-gradient(
+    to left,
+    #ff3333 0%,
+    #ff3333 75%,
+    #dbc3a3 75%,
+    #dbc3a3 100%
+  );
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    
 }
 
+h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.popular-choices-wrapper {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    gap: 30px;
+}
+
+.button-options {
+    display: flex;
+    gap: 30px;
+}
+
+.button-options button {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px 10px 10px;
+    background: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+}
+
+.button-options button:hover {
+    background: white;
+}
 
 
 /* MEDIA QUERIES */
