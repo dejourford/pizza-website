@@ -206,13 +206,6 @@ h1 {
 /* WEEKLY POPULAR CHOICES */
 .popular-choices-section {
     height: 100vh;
-    background: linear-gradient(
-    to left,
-    #ff3333 0%,
-    #ff3333 75%,
-    #dbc3a3 75%,
-    #dbc3a3 100%
-  );
     display: flex;
     justify-content: center;
     padding-top: 30px;
